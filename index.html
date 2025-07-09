@@ -5,26 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recycling for Torah</title>
-    
-    <!-- Tailwind Play CDN to make preview styling work -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: '#16a34a', // green-600
-              'primary-hover': '#15803d', // green-700
-              secondary: '#475569', // slate-600
-              light: '#f1f5f9', // slate-100
-              background: '#e2e8f0', // slate-200
-            }
-          }
-        }
-      }
-    </script>
-    
-    <script type="importmap">
+  <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@^19.1.0",
@@ -37,9 +18,9 @@
   }
 }
 </script>
-  </head>
+</head>
   <body class="bg-background">
     <div id="root"></div>
-    <script type="module" src="./src/index.tsx"></script>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>

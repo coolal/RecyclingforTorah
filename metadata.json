@@ -1,5 +1,5 @@
 {
-  "name": "Recycling for Torah",
+  "name": "Copy of Recycling for Torah",
   "description": "An application for scheduling recycling pickups to support Torah learning. Users can submit pickup requests, and an admin panel allows for viewing submissions and optimizing pickup routes using AI.",
   "requestFramePermissions": [],
   "prompt": ""
